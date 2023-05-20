@@ -3,7 +3,7 @@ Use bluetooth receipt printers to help manage combat robot events.
 
 
 Current Plan
-1. Figure out computer/micro
+1. Figure out computer/micro **I'm going Orange Pi Zero 2**
     * Pi Nano/Orange Pi
     * Pi Pico W
     * ESP32
