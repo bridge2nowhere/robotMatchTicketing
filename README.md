@@ -1,4 +1,4 @@
-# robotMatchTicketing
+# Combat Robotics Match Ticketing Mangement System
 Use bluetooth receipt printers to help manage combat robot events.
 
 
