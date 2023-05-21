@@ -20,8 +20,8 @@ Current Plan
 ## Required Setup
 
 1. Create a text file called config.py that has the following two lines of code:
-'''
+```
 api_usr = "yourChallongeUsername"
 api_key = "yourChallongeAPIKey"
-'''
+```
 
