@@ -15,3 +15,13 @@ Current Plan
     * Work with multiple tournaments/fields (e.g. different weight classes)
     * Add pit screen display for upcoming matches
     * Modify pit display to handle multiple tournaments
+
+
+## Required Setup
+
+1. Create a text file called config.py that has the following two lines of code:
+'''
+api_usr = "yourChallongeUsername"
+api_key = "yourChallongeAPIKey"
+'''
+
