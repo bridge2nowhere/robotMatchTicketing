@@ -32,7 +32,7 @@ def printMatch(matchNum:int):
     matchString = "Match " + str(matchNum+1) + "\n"
     print("Match", matchNum+1)
     printer.write(matchString)
-    #printer = open('/dev/usb/lp0', 'w')
+
 
     for r in participants:
       if (r["id"] == player1):
@@ -43,7 +43,7 @@ def printMatch(matchNum:int):
       if (r["id"] == player2):
         print(r["name"])
         printer.write(r["name"])
-    printer.write("\n")
+    printer.write("\n\n\n\n")
     printer.close()    
 
 
