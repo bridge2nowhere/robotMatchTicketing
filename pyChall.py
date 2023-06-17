@@ -27,13 +27,24 @@ def printMatch(matchNum:int):
     ###function will consume match number and print the details###
     player1 = matches[matchNum]["player1_id"]
     player2 = matches[matchNum]["player2_id"]
+
+    printer = open('/dev/usb/lp0', 'w')
+    matchString = "Match " + str(matchNum+1) + "\n"
     print("Match", matchNum+1)
+    printer.write(matchString)
+    #printer = open('/dev/usb/lp0', 'w')
+
     for r in participants:
       if (r["id"] == player1):
         print(r["name"])
+        printer.write(r["name"])
+        printer.write("  vs  ")
     for r in participants:
       if (r["id"] == player2):
-        print(r["name"])    
+        print(r["name"])
+        printer.write(r["name"])
+    printer.write("\n")
+    printer.close()    
 
 
 #main program body
